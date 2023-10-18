@@ -6,8 +6,8 @@ type Props = {
 };
 // Опишіть Props
 export function Observer({ children, onContentEndVisible }: Props) {
-  // export const User: React.FC<Props> = ({ children, onContentEndVisible }) => {
-  
+  // export const Observer: React.FC<Props> = ({ children, onContentEndVisible }) => {
+
   // Вкажіть правильний тип для useRef зверніть увагу, в який DOM елемент ми його передаємо
   const endContentRef = useRef<HTMLDivElement>(null);
 
